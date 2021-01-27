@@ -53,6 +53,7 @@ function decreasePrice(displayNumId, iphoneGBPrice, price, subTotal, slicePrice)
    document.getElementById(subTotal).innerHTML = iSlicePhoneNum + totalPrice;
 }
 
+// Total balance and total taxes
 function taxTotalAmount(displayNumId1, displayNumId2, taxFee, taxInput){
    const displayPrice1 = document.getElementById(displayNumId1).value;
    const displayPrice1N = parseInt(displayPrice1)
